@@ -1,22 +1,97 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* max-width: 1280px; */
+  max-width: 800px;
+  margin:  auto;
+  /* text-align: center; */
+  max-height: 100vh;
+  background-color: #232224;
+}
+.ai-chat{
+  margin: 0px 40px;
+  margin-bottom: 10px;
+  background-color: #232224;
+  padding: 20px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+}
+.user-chat{
+  margin: 0px 40px;
+  margin-bottom: 10px;
+  text-align: justify;
+  padding: 20px;
+  /* width: 70%; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+}
+p{
+  font-size: 16px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+.container{
+  /* width: 100vh;
+  border: 0px none;
+  background-color: #232224;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; */
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+input{
+  height: 40px;
+  width: 100vh;
+  background-color: #111112;
+  border: none;
+  border-radius: 4px;
+  padding-left: 10px;
+  /* color: white; */
+  
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.chat-area{
+  background-color: #111112;
+  height: calc(100vh - 48px);
+  border-radius: 8px;
+  /* margin-bottom: 20px; */
 }
+.arrow-icon{
+  color: black;
+}
+.input-div{
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.button{
+  background-color: #7918FE;
+  width: 60px;
+  height: 45px;
+  border-radius: 6px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes logo-spin {
   from {
@@ -33,10 +108,22 @@
   }
 }
 
-.card {
+/* .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+} */
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
